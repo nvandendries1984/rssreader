@@ -1,0 +1,12 @@
+title: RssSources
+modelClass: NielsVanDenDries\Rssreader\Models\RssSources
+list: $/nielsvandendries/rssreader/models/rsssources/columns.yaml
+recordUrl: 'nielsvandendries/rssreader/rsssources/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

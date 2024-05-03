@@ -1,0 +1,11 @@
+name: RssSources
+modelClass: NielsVanDenDries\Rssreader\Models\RssSources
+form: $/nielsvandendries/rssreader/models/rsssources/fields.yaml
+defaultRedirect: nielsvandendries/rssreader/rsssources
+create:
+    redirect: 'nielsvandendries/rssreader/rsssources/update/:id'
+    redirectClose: nielsvandendries/rssreader/rsssources
+update:
+    redirect: nielsvandendries/rssreader/rsssources
+    redirectClose: nielsvandendries/rssreader/rsssources
+preview: {  }

@@ -1,0 +1,25 @@
+columns:
+    id:
+        label: 'Source ID'
+        type: number
+        searchable: true
+        sortable: true
+    name:
+        label: Name
+        type: text
+        searchable: true
+        sortable: true
+    source_url:
+        label: 'Source URL'
+        type: text
+        searchable: true
+    max_items:
+        label: 'Max Items'
+        type: number
+        searchable: true
+        sortable: true
+    is_enabled:
+        label: 'Is Enabled'
+        type: switch
+        searchable: true
+        sortable: true

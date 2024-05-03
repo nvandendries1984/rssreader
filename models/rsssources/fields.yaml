@@ -1,0 +1,24 @@
+fields:
+    name:
+        label: Name
+        type: text
+        required: true
+        span: left
+    source_url:
+        label: 'Source url'
+        required: true
+        type: text
+        placeholder: http://example.com/rss.xml
+        span: right
+    description:
+        label: Description
+        type: textarea
+        size: small
+    max_items:
+        label: 'Max items'
+        default: 10
+        span: left
+    is_enabled:
+        label: 'Is enabled'
+        span: left
+        type: switch
