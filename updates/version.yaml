@@ -3,9 +3,3 @@ v1.0.1:
 v1.0.2:
     - 'Created table nielsvandendries_rssreader_source'
     - builder_table_create_nielsvandendries_rssreader_source.php
-v1.0.3:
-    - 'Created table nielsvandendries_rssreader_snippets'
-    - builder_table_create_nielsvandendries_rssreader_snippets.php
-v1.0.4:
-    - 'Drop table nielsvandendries_rssreader_snippets'
-    - builder_table_delete_nielsvandendries_rssreader_snippets.php
