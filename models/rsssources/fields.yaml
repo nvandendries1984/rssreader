@@ -8,17 +8,29 @@ fields:
         label: 'Source url'
         required: true
         type: text
-        placeholder: http://example.com/rss.xml
+        placeholder: 'http://example.com/rss.xml'
         span: right
-    description:
-        label: Description
-        type: textarea
-        size: small
+    id:
+        label: 'Source ID'
+        span: right
+        disabled: 1
+        readOnly: 1
+        type: text
     max_items:
         label: 'Max items'
         default: 10
         span: left
+        type: text
     is_enabled:
         label: 'Is enabled'
         span: left
         type: switch
+    section1:
+        label: ''
+        span: full
+        type: section
+    description:
+        label: Description
+        size: small
+        span: full
+        type: textarea
